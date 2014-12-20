@@ -1,0 +1,1574 @@
+[2013-02-13 12:13:03,862] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:13:03,862] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:13:03,882] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:13:04,142] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:13:04,392] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:13:37,963] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:13:37,973] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:13:37,973] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:13:37,983] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:13:37,983] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:13:38,033] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:13:38,033] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:13:38,123] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:13:38,173] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:13:38,213] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:13:38,293] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:13:38,293] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:13:38,293] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:13:38,293] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:13:38,303] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:13:38,303] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:13:38,313] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:13:38,323] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:13:38,373] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:13:38,483] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:13:38,483] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:13:38,823] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:13:38,823] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:13:38,833] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:13:38,843] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:13:38,853] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:13:38,853] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:13:38,853] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:13:38,853] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:13:38,883] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:13:39,163] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:13:39,503] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:14:21,101] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:14:21,131] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:14:21,131] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:14:21,131] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:14:21,131] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:14:21,181] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:14:21,181] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:14:21,271] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:14:21,331] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:14:21,361] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:14:21,441] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:14:21,441] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:14:21,441] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:14:21,441] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:14:21,451] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:14:21,451] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:14:21,461] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:14:21,511] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:14:21,511] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:14:21,511] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:14:21,511] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:14:21,521] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:14:21,521] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:14:21,521] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:14:21,621] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:14:21,621] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:14:21,941] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:14:21,941] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:14:21,951] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:14:21,961] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:14:21,971] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:14:21,971] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:14:21,971] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:14:21,971] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:14:21,991] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:14:22,311] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:14:22,641] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:24:24,871] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:24:24,887] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:24:24,887] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:24:24,887] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:24:24,903] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:24:24,934] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:24:24,934] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:24:25,012] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:24:25,074] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:24:25,105] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:24:25,168] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:24:25,168] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:24:25,168] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:24:25,168] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:24:25,183] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:24:25,199] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:24:25,199] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:24:25,230] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:24:25,230] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:24:25,230] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:24:25,230] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:24:25,246] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:24:25,246] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:24:25,246] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:24:25,402] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:24:25,402] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:24:25,667] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:24:25,667] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:24:25,683] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:24:25,698] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:24:25,698] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:24:25,698] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:24:25,698] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:24:25,714] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:24:25,948] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:24:26,229] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:25:21,783] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:25:21,799] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:25:21,814] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:25:21,814] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:25:21,814] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:25:21,861] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:25:21,861] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:25:21,955] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:25:22,017] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:25:22,048] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:25:22,124] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:25:22,124] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:25:22,124] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:25:22,124] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:25:22,134] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:25:22,134] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:25:22,144] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:25:22,194] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:25:22,194] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:25:22,194] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:25:22,194] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:25:22,204] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:25:22,204] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:25:22,204] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:25:22,304] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:25:22,304] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:25:22,594] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:25:22,594] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:25:22,604] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:25:22,614] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:25:22,624] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:25:22,624] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:25:22,624] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:25:22,624] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:25:22,654] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:25:22,944] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:25:23,274] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:26:24,583] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:26:24,598] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:26:24,598] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:26:24,598] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:26:24,598] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:26:24,661] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:26:24,661] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:26:24,739] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:26:24,785] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:26:24,817] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:26:24,879] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:26:24,879] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:26:24,879] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:26:24,879] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:26:24,895] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:26:24,895] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:26:24,905] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:26:24,945] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:26:24,945] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:26:24,945] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:26:24,945] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:26:24,955] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:26:24,955] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:26:24,955] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:26:25,025] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:26:25,025] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:26:25,285] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:26:25,285] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:26:25,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:26:25,305] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:26:25,305] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:26:25,305] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:26:25,305] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:26:25,305] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:26:25,325] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:26:25,565] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:26:25,795] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:26:38,145] [ WARN] - org.hibernate.util.JDBCExceptionReporter
+SQL Error: 515, SQLState: 23000
+[2013-02-13 12:26:38,145] [ERROR] - org.hibernate.util.JDBCExceptionReporter
+Cannot insert the value NULL into column 'id_kerjaSamaDetil', table 'db_asuransi.dbo.tblDtl_KerjaSama'; column does not allow nulls. INSERT fails.
+[2013-02-13 12:30:35,182] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:30:35,202] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:30:35,202] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:30:35,202] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:30:35,202] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:30:35,262] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:30:35,262] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:30:35,332] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:30:35,392] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:30:35,422] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:30:35,492] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:30:35,492] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:30:35,492] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:30:35,492] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:30:35,502] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:30:35,502] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:30:35,512] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:30:35,562] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:30:35,652] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:30:35,652] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:30:35,912] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:30:35,912] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:30:35,922] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:30:35,932] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:30:35,962] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:30:36,222] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:30:36,442] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:31:36,278] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:31:36,288] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:31:36,288] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:31:36,288] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:31:36,288] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:31:36,338] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:31:36,338] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:31:36,418] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:31:36,458] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:31:36,498] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:31:36,558] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:31:36,558] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:31:36,568] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:31:36,568] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:31:36,578] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:31:36,578] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:31:36,578] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:31:36,578] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:31:36,588] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:31:36,588] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:31:36,588] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:31:36,588] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:31:36,588] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:31:36,588] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:31:36,628] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:31:36,628] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:31:36,628] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:31:36,628] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:31:36,638] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:31:36,638] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:31:36,638] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:31:36,748] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:31:36,748] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:31:36,998] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:31:36,998] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:31:37,018] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:31:37,018] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:31:37,028] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:31:37,048] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:31:37,328] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:31:37,548] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 12:33:00,953] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 12:33:00,968] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 12:33:00,968] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 12:33:00,968] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 12:33:00,968] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 12:33:01,031] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 12:33:01,031] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 12:33:01,093] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 12:33:01,156] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 12:33:01,187] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 12:33:01,249] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 12:33:01,249] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 12:33:01,249] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 12:33:01,249] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 12:33:01,265] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 12:33:01,265] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 12:33:01,275] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 12:33:01,315] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 12:33:01,315] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:33:01,315] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 12:33:01,325] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 12:33:01,325] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 12:33:01,325] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 12:33:01,325] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 12:33:01,405] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 12:33:01,405] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 12:33:01,655] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 12:33:01,655] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 12:33:01,665] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 12:33:01,675] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 12:33:01,685] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 12:33:01,685] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 12:33:01,695] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 12:33:02,025] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 12:33:02,255] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 13:28:45,611] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 13:28:45,691] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 13:28:45,701] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 13:28:45,721] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 13:28:45,721] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 13:28:45,881] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 13:28:45,881] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 13:28:46,581] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 13:28:46,771] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 13:28:46,841] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 13:28:46,931] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 13:28:46,931] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 13:28:46,931] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 13:28:46,931] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 13:28:46,941] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 13:28:46,941] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 13:28:46,951] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 13:28:46,951] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 13:28:46,951] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 13:28:46,951] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 13:28:46,951] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 13:28:46,951] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 13:28:46,961] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 13:28:46,961] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 13:28:47,031] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 13:28:47,031] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 13:28:47,031] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 13:28:47,031] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 13:28:47,051] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 13:28:47,051] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 13:28:47,051] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 13:28:47,611] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://10.1.0.25:1433;databaseName=db_asuransi
+[2013-02-13 13:28:47,611] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 13:28:49,371] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 13:28:49,371] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 13:28:49,401] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 13:28:49,411] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 13:28:49,421] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 13:28:49,431] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 13:28:49,431] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 13:28:49,431] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 13:28:49,431] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 13:28:49,491] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 13:28:49,931] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 13:28:50,581] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 13:30:48,505] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 13:30:48,515] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 13:30:48,515] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 13:30:48,515] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 13:30:48,515] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 13:30:48,565] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 13:30:48,565] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 13:30:48,655] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 13:30:48,695] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 13:30:48,735] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 13:30:48,795] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 13:30:48,795] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 13:30:48,805] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 13:30:48,805] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 13:30:48,805] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 13:30:48,805] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 13:30:48,815] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 13:30:48,815] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 13:30:48,815] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 13:30:48,815] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 13:30:48,825] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 13:30:48,825] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 13:30:48,825] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 13:30:48,825] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 13:30:48,865] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 13:30:48,865] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 13:30:48,865] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 13:30:48,865] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 13:30:48,875] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 13:30:48,875] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 13:30:48,875] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 13:30:48,955] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 13:30:48,955] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 13:30:49,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 13:30:49,295] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 13:30:49,305] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 13:30:49,315] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 13:30:49,325] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 13:30:49,325] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 13:30:49,325] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 13:30:49,325] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 13:30:49,345] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 13:30:49,595] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 13:30:49,825] [ INFO] - view.Login                              
+Login suksess
+[2013-02-13 13:35:28,803] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-13 13:35:28,823] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-13 13:35:28,823] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-13 13:35:28,823] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-13 13:35:28,833] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-13 13:35:28,873] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-13 13:35:28,873] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-13 13:35:28,953] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-13 13:35:29,003] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-13 13:35:29,043] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-13 13:35:29,103] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-13 13:35:29,103] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-13 13:35:29,113] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-13 13:35:29,113] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-13 13:35:29,113] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-13 13:35:29,113] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-13 13:35:29,123] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-13 13:35:29,123] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-13 13:35:29,123] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-13 13:35:29,123] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-13 13:35:29,123] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-13 13:35:29,123] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-13 13:35:29,133] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-13 13:35:29,133] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-13 13:35:29,173] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-13 13:35:29,353] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://localhost:1433;databaseName=db_asuransi
+[2013-02-13 13:35:29,353] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-13 13:35:29,623] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-13 13:35:29,623] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-13 13:35:29,633] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-13 13:35:29,643] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-13 13:35:29,663] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-13 13:35:29,913] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-13 13:35:30,143] [ INFO] - view.Login                              
+Login suksess
+[2013-02-14 12:22:06,186] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-14 12:22:06,326] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-14 12:22:06,342] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-14 12:22:06,357] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-14 12:22:06,373] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-14 12:22:06,607] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-14 12:22:06,607] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-14 12:22:07,419] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-14 12:22:08,262] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-14 12:22:08,839] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-14 12:22:09,478] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-14 12:22:09,478] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-14 12:22:09,494] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-14 12:22:09,494] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-14 12:22:09,510] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-14 12:22:09,510] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-14 12:22:09,525] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-14 12:22:09,525] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-14 12:22:09,541] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-14 12:22:09,541] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-14 12:22:09,541] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-14 12:22:09,541] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-14 12:22:09,541] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-14 12:22:09,541] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
+[2013-02-14 12:22:10,898] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.AsuransiModel.hdr_kerjasama -> tblHdr_Kerjasama
+[2013-02-14 12:22:10,914] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.PerusahaanModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-14 12:22:10,914] [ INFO] - org.hibernate.cfg.annotations.CollectionBinder
+Mapping collection: model.Hdr_KerjasamaModel.dtl_kerjasama -> tblDtl_KerjaSama
+[2013-02-14 12:22:10,914] [ INFO] - org.hibernate.cfg.AnnotationConfiguration
+Hibernate Validator not found: ignoring
+[2013-02-14 12:22:11,241] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Using Hibernate built-in connection pool (not for production use!)
+[2013-02-14 12:22:11,241] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+Hibernate connection pool size: 20
+[2013-02-14 12:22:11,241] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+autocommit mode: false
+[2013-02-14 12:22:16,077] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://10.1.0.25:1433;databaseName=db_asuransi
+[2013-02-14 12:22:16,077] [ INFO] - org.hibernate.connection.DriverManagerConnectionProvider
+connection properties: {user=sa, password=****}
+[2013-02-14 12:22:17,585] [ INFO] - org.hibernate.cfg.SettingsFactory       
+RDBMS: Microsoft SQL Server, version: 9.00.1399
+[2013-02-14 12:22:17,600] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC driver: Microsoft JDBC Driver 4.0 for SQL Server, version: 4.0.2206.100
+[2013-02-14 12:22:17,678] [ INFO] - org.hibernate.dialect.Dialect           
+Using dialect: org.hibernate.dialect.SQLServerDialect
+[2013-02-14 12:22:17,678] [ INFO] - org.hibernate.transaction.TransactionFactoryFactory
+Using default transaction strategy (direct JDBC transactions)
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.transaction.TransactionManagerLookupFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic flush during beforeCompletion(): disabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Automatic session close at end of transaction: disabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Scrollable result sets: enabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JDBC3 getGeneratedKeys(): enabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Connection release mode: auto
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default batch fetch size: 1
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Generate SQL with comments: disabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL updates by primary key: disabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Order SQL inserts for batching: disabled
+[2013-02-14 12:22:17,694] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query language substitutions: {}
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+JPA-QL strict compliance: disabled
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Second-level cache: enabled
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Query cache: disabled
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Cache provider: org.hibernate.cache.NoCacheProvider
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Optimize cache for minimal puts: disabled
+[2013-02-14 12:22:17,741] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Structured second-level cache entries: disabled
+[2013-02-14 12:22:17,756] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Statistics: disabled
+[2013-02-14 12:22:17,756] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Deleted entity synthetic identifier rollback: disabled
+[2013-02-14 12:22:17,788] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Default entity-mode: pojo
+[2013-02-14 12:22:17,788] [ INFO] - org.hibernate.cfg.SettingsFactory       
+Named query checking : enabled
+[2013-02-14 12:22:17,959] [ INFO] - org.hibernate.impl.SessionFactoryImpl   
+building session factory
+[2013-02-14 12:22:18,396] [ INFO] - org.hibernate.impl.SessionFactoryObjectFactory
+Not binding factory to JNDI, no JNDI name configured
+[2013-02-14 12:22:19,036] [ INFO] - view.Login                              
+Login suksess
+[2013-02-14 12:27:48,428] [ INFO] - org.hibernate.cfg.annotations.Version   
+Hibernate Annotations 3.3.1.GA
+[2013-02-14 12:27:48,490] [ INFO] - org.hibernate.cfg.Environment           
+Hibernate 3.2.5
+[2013-02-14 12:27:48,490] [ INFO] - org.hibernate.cfg.Environment           
+hibernate.properties not found
+[2013-02-14 12:27:48,490] [ INFO] - org.hibernate.cfg.Environment           
+Bytecode provider name : cglib
+[2013-02-14 12:27:48,506] [ INFO] - org.hibernate.cfg.Environment           
+using JDK 1.4 java.sql.Timestamp handling
+[2013-02-14 12:27:48,646] [ INFO] - org.hibernate.cfg.Configuration         
+configuring from resource: /hibernate.cfg.xml
+[2013-02-14 12:27:48,646] [ INFO] - org.hibernate.cfg.Configuration         
+Configuration resource: /hibernate.cfg.xml
+[2013-02-14 12:27:49,249] [ INFO] - org.hibernate.cfg.Configuration         
+Configured SessionFactory: null
+[2013-02-14 12:27:49,389] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.AsuransiModel
+[2013-02-14 12:27:49,467] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.AsuransiModel on table tbl_asuransi
+[2013-02-14 12:27:49,577] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PerusahaanModel
+[2013-02-14 12:27:49,577] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PerusahaanModel on table tbl_perusahaan
+[2013-02-14 12:27:49,592] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Hdr_KerjasamaModel
+[2013-02-14 12:27:49,592] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Hdr_KerjasamaModel on table tblHdr_Kerjasama
+[2013-02-14 12:27:49,592] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.Dtl_KerjasamaModel
+[2013-02-14 12:27:49,592] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.Dtl_KerjasamaModel on table tblDtl_KerjaSama
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UserModel
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UserModel on table tbl_userId
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.PesanModel
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.PesanModel on table tbl_pesan
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.ViewHdrModel
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.ViewHdrModel on table ViewHdrModel
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.AnnotationBinder      
+Binding entity from annotated class: model.UpdateKerjasamaModel
+[2013-02-14 12:27:49,608] [ INFO] - org.hibernate.cfg.annotations.EntityBinder
+Bind entity model.UpdateKerjasamaModel on table tbl_updateKerjaSama
